@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Title</title>
+
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+  .first{
+      background-color:#003366;
+      width: auto;
+      height:100vw;
+      position: relative;
+      top:100px;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration:5s;
+      animation-iteration-count: infinite;
+  }
+
+   /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+      0%   {background-color:#cc3366;  top:100px;width:auto;height:800px; }
+      45%  {background-color:#003333;  top:200px;width:300;height:500px;}
+      90% {background-color:#003399;  top:100px;width:300;height:800px;}
+
+  }
+
+  /* Standard syntax */
+  @keyframes example {
+    0%   {background-color:#cc3366;  top:100px;width:auto;height:800px; }
+    45%  {background-color:#003333;  top:200px;width:300;height:500px;}
+    90% {background-color:#003399;  top:100px;width:300;height:800px;}
+  }
+    .loading{
+      width: 50vw;
+      position: fixed;
+      top:350px;
+      left:25vw;
+    }</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+  <div class=first>
+  <li><a href="file:///Users/fffionajin/Documents/GitHub/Interactive-1/Project3/Project3_Ex1.html"><img  class="loading" src="project3_libraries/loadingToFashion3dPrintFactory.gif"></a></li>
+</div>
+
+</body>
+</html>
